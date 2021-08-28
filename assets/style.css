@@ -37,7 +37,7 @@ h4{
 /*----- NAV -----*/
 
 nav {
-    font-size: 30px;
+    font-size: 25px;
     text-shadow: 1px 1px #000000;
 }
 
@@ -49,7 +49,17 @@ nav {
 
 #social li, #navi li {
     display: inline;
+   
 }
+
+#social #navi {
+    display: inline;
+}
+
+#social {
+    z-index: -1;
+}
+
 
 #navi {
     visibility: hidden;
@@ -84,18 +94,23 @@ nav {
     justify-content: space-between;
     background-image: linear-gradient(to top, rgba(255, 0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0));
     width: 100%;
+    flex-wrap: nowrap;
 }
 
-@media screen and (max-width: 900px) {
-    header i, a {
-        font-size: 3vh;
+@media (max-width: 799px) {
+
+
+    #social i{
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
     }
-    nav ul {
-        margin: 10px;
+    #navi a{
+        margin: 0;
+        padding: 0;
+        font-size: 20px
     }
-    nav>#navi {
-        display: none;
-    }
+    
 }
 
 /*----- HERO-IMG -----*/
