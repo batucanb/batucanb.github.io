@@ -1,7 +1,3 @@
-html {
-  scroll-behavior: smooth;
-}
-
 body {
     padding: 0;
     margin: 0;
@@ -211,11 +207,17 @@ nav {
 .capa{
     border: solid 1px #fff;
     margin-bottom: 30px;
+    flex-shrink: 1;
 }
 
 .capa > p{
     color: #fff;
 }
+
+.capa a > img {
+    width: 300px;
+}
+
 
 /*----- CONTATO -----*/
 #contato{
