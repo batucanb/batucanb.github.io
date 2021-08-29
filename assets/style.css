@@ -179,7 +179,7 @@ nav {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    font-family: 'Pacifico', cursive;
+    font-family: courier-std, monospace;
 }
 
 @media screen and (max-width: 900px) {
