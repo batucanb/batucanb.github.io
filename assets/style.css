@@ -169,8 +169,16 @@ nav {
 
 }
 
+.card > p {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+
+}
+
 .card > h2 {
     color: #000;
+    font-size: 15px;
 }
 
 .card>img {
