@@ -1,0 +1,4 @@
+
+	User-agent: *
+	Disallow: /assets/script.js
+	Disallow: /temp.html
